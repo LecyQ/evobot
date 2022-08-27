@@ -21,7 +21,7 @@ export class Bot {
 
     this.client.on("ready", () => {
       console.log(`${this.client.user!.username} ready!`);
-      client.user!.setActivity(`${this.prefix}help and ${this.prefix}play`, { type: "LISTENING" });
+      client.user!.setActivity(`${this.prefix}p yap çalışır kanka`, { type: "LISTENING" });
     });
 
     this.client.on("warn", (info) => console.log(info));
